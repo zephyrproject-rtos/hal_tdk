@@ -20,7 +20,9 @@ extern "C" {
 
 #include <stdint.h>
 
-/* Whoami */
+/* Include device definition */
+#include "icm566xx/icm566xx_h/imu/inv_imu.h"
+
 #define INV_IMU_FSYNC_SUPPORTED    1
 #define INV_IMU_INT2_PIN_SUPPORTED 1
 #define INV_IMU_AUX1_SUPPORTED     1
